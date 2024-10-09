@@ -12,7 +12,7 @@ jobs:
       - name: Checkmarx One CLI Action
         uses: checkmarx/ast-github-action@main #Github Action version
         with:
-          project_name: Pawan_GA
+          project_name: PawanCodesStacks/Pawan_BenchmarkJava
           cx_tenant: ama-partners
           base_uri:  https://ind.ast.checkmarx.net
           cx_client_id: ${{ secrets.CX_CLIENT_ID }}
