@@ -26,6 +26,7 @@ stages:
         projectName: '$(Build.Repository.Name)'
         branchName: '$(Build.SourceBranchName)'
         tenantName: 'ama-partners'
+        additionalParams: '--project-groups RN123'
     - task: Docker@2
       displayName: Build an image
       inputs:
